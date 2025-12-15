@@ -12,7 +12,7 @@ from sseclient import SSEClient
 # ---------------- CONFIG ----------------
 
 # BOT_TOKEN: GitHub Secrets (Actions) me BOT_TOKEN set karo
-BOT_TOKEN = "8248892424:AAGcNHRBKjapxplF0QBg42OcIJOkJO8ZY5k"
+BOT_TOKEN = "8501841944:AAGfXMtKnKFcTLfIL9NvxCMgpLMWp2J8-4M"
 
 if not BOT_TOKEN or BOT_TOKEN.strip() == "":
     print("❌ BOT_TOKEN missing inside ra.py file!")
@@ -21,10 +21,10 @@ if not BOT_TOKEN or BOT_TOKEN.strip() == "":
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 # OWNER_IDS = saare admins/owners ke Telegram user IDs (int me)
-OWNER_IDS = [8260945171]
+OWNER_IDS = [1451422178]
 
 # Jis admin ka DM kholne ka button dena hai (primary admin)
-PRIMARY_ADMIN_ID = 7309295924   # yaha apna main admin ka ID rakho
+PRIMARY_ADMIN_ID = 1451422178   # yaha apna main admin ka ID rakho
 
 POLL_INTERVAL = 2
 MAX_SSE_RETRIES = 5
