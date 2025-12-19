@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import os
 import requests
 import json
@@ -17,8 +16,8 @@ if not BOT_TOKEN or BOT_TOKEN.strip() == "":
     raise SystemExit(1)
 
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
-OWNER_IDS = [8260945171]
-PRIMARY_ADMIN_ID = 7309295924
+OWNER_IDS = [1451422178]
+PRIMARY_ADMIN_ID = 1451422178
 POLL_INTERVAL = 2
 MAX_SSE_RETRIES = 5
 # ---------------------------------------
